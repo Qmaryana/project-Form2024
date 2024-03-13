@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFF00;
+  text-shadow: 2px 2px hsl(0, 0%, 0%);
+}
+
+.box {
+  display: inline-block;
+  width: 49%;
+}
+
+.content {
+  padding: 25px;
+  display: flex;
+}
+
+img {
+  height: 35rem;
+  width: 27rem;
+  border: 5px;
+  border-style: double;
+  border-color: #FFFF00;
+}
+
+/*---------------------global----------------------------*/
+* {
+  /*Set the line height for the element*/
+  line-height: 150%;
+  /*The vertical-align property sets the 
+	vertical alignment of an element.*/
+  margin: 0;
+  word-spacing: 6px;
+}
